@@ -1,32 +1,60 @@
-# Toddler Gaming Application
+🎮 Toddler Gaming Application
+Toddler Gaming Application is an educational desktop game designed specifically for toddlers. Created using Python's pygame library, it features three engaging mini-games aimed at fostering early learning through play:
 
-**Toddler Gaming Application** is an educational desktop game created using Python's `pygame` library. Developed for toddlers, it includes three mini-games that promote learning through play:
+🧮 Math Game – Introduces basic arithmetic concepts.
 
-- **Math Game** – Teaches basic arithmetic.
-- **Spelling Game** – Helps with word construction and letter recognition.
-- **Memory Game** – Enhances visual memory through a tile-matching challenge.
+🔤 Spelling Game – Encourages letter recognition and word building.
 
-> 🛑 **Note:** This project was developed two years ago as part of a Master's degree program. It may not be fully functional with current versions of Python or `pygame` and has not been maintained since. Use for educational/reference purposes only.
+🧠 Memory Game – Boosts visual memory through a classic tile-matching challenge.
 
-## 🎮 Features
+⚠️ Disclaimer:
+This project was developed two years ago as part of a Master’s degree program. It has not been maintained and may not be compatible with current versions of Python or pygame. It is intended for educational/reference purposes only.
 
-- Child-friendly interface
-- Three interactive learning games
-- Visual and auditory feedback
-- Developed using Python and `pygame`
+✨ Features
+Simple, child-friendly interface
 
-## 🛠️ Built With
+Three mini-games with interactive visuals and audio
 
-- Python 3
-- Pygame
+Reinforces early math, spelling, and memory skills
 
-## 🚀 Running the Application
+Built-in Parental Timer Control — allows parents to set a fixed playtime duration
 
-To run the application (assuming compatible dependencies are in place):
+Standalone desktop application (no internet required)
 
-```bash
+🛠️ Tech Stack
+
+Python 3
+
+Pygame
+
+🚀 Getting Started
+
+Prerequisites
+Ensure you have Python 3 and pygame installed. You can install pygame using pip:
+
+pip install pygame
+
+Running the Application
+Clone the repository (or download the project files), then run:
+
 python3 MainMenu.py
+The main menu allows the user to choose between the Math, Spelling, or Memory games.
 
+⏳ Parental Timer Control
+The game includes a built-in timer feature that allows parents to control how long the child can play. Before starting, parents can set a time limit (in minutes), after which the application automatically locks the game, promoting healthy screen time habits.
 
-📷 Screenshots
+📁 Project Structure
 
+ToddlerGamingApp/
+│
+├── MainMenu.py          # Entry point with main game menu
+├── MathGame.py          # Math mini-game
+├── SpellingGame.py      # Spelling mini-game
+├── MemoryGame.py        # Memory mini-game
+├── Timer.py             # Handles parental timer feature
+├── assets/              # Images, sounds, and fonts
+└── README.md
+
+📚 License & Credits
+This project was developed for academic purposes as part of a Master's program.
+Feel free to explore, learn from, or adapt it with attribution.
