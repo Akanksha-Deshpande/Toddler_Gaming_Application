@@ -1,17 +1,19 @@
-🎮 Toddler Gaming Application
+🎮 **Toddler Gaming Application**
 
 Toddler Gaming Application is an educational desktop game designed specifically for toddlers. Created using Python's pygame library, it features three engaging mini-games aimed at fostering early learning through play:
 
-🧮 Math Game – Introduces basic arithmetic concepts.
+🧮 **Math Game** – Introduces basic arithmetic concepts.
 
-🔤 Spelling Game – Encourages letter recognition and word building.
+🔤 **Spelling Game** – Encourages letter recognition and word building.
 
-🧠 Memory Game – Boosts visual memory through a classic tile-matching challenge.
+🧠 **Memory Game** – Boosts visual memory through a classic tile-matching challenge.
 
-⚠️ Disclaimer:
+⚠️ **Disclaimer**:
+
 This project was developed two years ago as part of a Master’s degree program. It has not been maintained and may not be compatible with current versions of Python or pygame. It is intended for educational/reference purposes only.
 
-✨ Features
+✨ **Features**
+
 Simple, child-friendly interface
 
 Three mini-games with interactive visuals and audio
@@ -22,40 +24,32 @@ Built-in Parental Timer Control — allows parents to set a fixed playtime durat
 
 Standalone desktop application (no internet required)
 
-🛠️ Tech Stack
+🛠️ **Tech Stack**
 
 Python 3
 
 Pygame
 
-🚀 Getting Started
+🚀 **Getting Started**
 
 Prerequisites
+
 Ensure you have Python 3 and pygame installed. You can install pygame using pip:
 
 pip install pygame
 
 Running the Application
+
 Clone the repository (or download the project files), then run:
 
 python3 MainMenu.py
 The main menu allows the user to choose between the Math, Spelling, or Memory games.
 
-⏳ Parental Timer Control
+⏳ **Parental Timer Control**
+
 The game includes a built-in timer feature that allows parents to control how long the child can play. Before starting, parents can set a time limit (in minutes), after which the application automatically locks the game, promoting healthy screen time habits.
 
-📁 Project Structure
+📚 **License & Credits**
 
-ToddlerGamingApp/
-│
-├── MainMenu.py          # Entry point with main game menu
-├── MathGame.py          # Math mini-game
-├── SpellingGame.py      # Spelling mini-game
-├── MemoryGame.py        # Memory mini-game
-├── Timer.py             # Handles parental timer feature
-├── assets/              # Images, sounds, and fonts
-└── README.md
-
-📚 License & Credits
 This project was developed for academic purposes as part of a Master's program.
 Feel free to explore, learn from, or adapt it with attribution.
